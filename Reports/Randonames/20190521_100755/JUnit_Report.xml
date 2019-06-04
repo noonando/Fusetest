@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Randonames" time="216" tests="5" failures="1" errors="0">
+    <testsuite name="Randonames" tests="5" failures="1" errors="0" time="216" timestamp="2019-05-21 10:07:57" hostname="Clearlink - 172.16.101.169" id="Test Suites/Randonames">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755"/>
+            <property name="logFiles" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/execution0.log"/>
+            <property name="attachments" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558454927919.png, /Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558454959395.png, /Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558454990427.png, /Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558455021451.png, /Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558455052466.png, /Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558455084306.png"/>
+            <property name="hostName" value="Clearlink - 172.16.101.169"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Chrome 74.0.3729.157"/>
+            <property name="hostAddress" value="172.16.101.169"/>
+            <property name="sessionId" value="0e3516cb41b64f83b131afb433d8126e"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-21 10:07:57 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-21 10:07:58 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:07:58 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-21 10:07:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-21 10:08:02 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:08:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:08:03 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:08:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:08:03 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:08:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:08:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-21 10:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-21 10:08:07 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-21 10:08:07 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-21 10:08:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:09 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-21 10:08:09 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-21 10:08:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Scott' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-21 10:08:09 - [MESSAGE][PASSED] - Text 'Scott' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-21 10:08:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Patterson' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:10 - [MESSAGE][PASSED] - Text 'Patterson' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-21 10:08:10 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-21 10:08:10 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:08:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-21 10:08:10 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-21 10:08:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:08:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:08:13 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:08:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:08:13 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:08:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-21 10:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-21 10:08:16 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-21 10:08:17 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-21 10:08:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:20 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-21 10:08:20 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-21 10:08:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Steve' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-21 10:08:20 - [MESSAGE][PASSED] - Text 'Steve' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-21 10:08:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Dalzan' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:20 - [MESSAGE][PASSED] - Text 'Dalzan' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-21 10:08:20 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-21 10:08:20 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:08:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-21 10:08:20 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-21 10:08:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:08:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:08:24 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:08:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:08:24 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:08:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-21 10:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-21 10:08:28 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-21 10:08:28 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-21 10:08:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:30 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-21 10:08:30 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-21 10:08:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Mike' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-21 10:08:30 - [MESSAGE][PASSED] - Text 'Mike' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-21 10:08:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Smith' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:30 - [MESSAGE][PASSED] - Text 'Smith' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-21 10:08:30 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-21 10:08:30 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:08:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-21 10:08:30 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-21 10:08:33 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:08:33 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:08:33 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:08:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-21 10:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-21 10:08:37 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-21 10:08:37 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-21 10:08:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:39 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-21 10:08:39 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-21 10:08:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Tim' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-21 10:08:39 - [MESSAGE][PASSED] - Text 'Tim' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-21 10:08:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Freestone' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:08:40 - [MESSAGE][PASSED] - Text 'Freestone' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="FAILED">
+            <failure type="FAILED" message="Test Cases/Fuse/Embarq FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR'&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#xA;&#x9;at Embarq.run(Embarq:24)&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xA;&#x9;at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)&#xA;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/traffic-controller?CONCEPT=...&amp;amp;KBID=57986&amp;amp;ANI=1783061598&amp;amp;CUSTZIP=52977&amp;amp;interaction_type_id=1&quot; target=&quot;_blank&quot; class=&quot;btn btn-primary dev-tool-pop-button&quot;&gt;ENCR&lt;/a&gt; is not clickable at point (135, 584). Other element would receive the click: &lt;div class=&quot;col-auto&quot;&gt;...&lt;/div&gt;&#xA;  (Session info: headless chrome=74.0.3729.157)&#xA;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)&#xA;Command duration or timeout: 0 milliseconds&#xA;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'&#xA;System info: host: 'Test-Net.local', ip: 'fe80:0:0:0:1c9b:9c0f:53b1:fc81%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_181'&#xA;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xA;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/2t/h03m4hg13gb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60249}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}&#xA;Session ID: 4d7983bbad8fd90947718bfcdf88d5db&#xA;&#x9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#xA;&#x9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#xA;&#x9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#xA;&#x9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#xA;&#x9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#xA;&#x9;at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#xA;&#x9;at Script1558021466723.run(Script1558021466723.groovy:24)&#xA;&#x9;... 13 more&#xA;)&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#xA;&#x9;at Embarq.run(Embarq:24)&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xA;&#x9;at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)&#xA;Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR'&#xA;&#x9;... 21 more&#xA;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/traffic-controller?CONCEPT=...&amp;amp;KBID=57986&amp;amp;ANI=1783061598&amp;amp;CUSTZIP=52977&amp;amp;interaction_type_id=1&quot; target=&quot;_blank&quot; class=&quot;btn btn-primary dev-tool-pop-button&quot;&gt;ENCR&lt;/a&gt; is not clickable at point (135, 584). Other element would receive the click: &lt;div class=&quot;col-auto&quot;&gt;...&lt;/div&gt;&#xA;  (Session info: headless chrome=74.0.3729.157)&#xA;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)&#xA;Command duration or timeout: 0 milliseconds&#xA;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'&#xA;System info: host: 'Test-Net.local', ip: 'fe80:0:0:0:1c9b:9c0f:53b1:fc81%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_181'&#xA;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xA;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/2t/h03m4hg13gb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60249}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}&#xA;Session ID: 4d7983bbad8fd90947718bfcdf88d5db&#xA;&#x9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#xA;&#x9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#xA;&#x9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#xA;&#x9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#xA;&#x9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#xA;&#x9;at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xA;&#x9;... 19 more&#xA;"/>
+            <system-out>2019-05-21 10:08:40 - [TEST_CASE][FAILED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Embarq.run(Embarq:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href="/traffic-controller?CONCEPT=...&amp;amp;KBID=57986&amp;amp;ANI=1783061598&amp;amp;CUSTZIP=52977&amp;amp;interaction_type_id=1" target="_blank" class="btn btn-primary dev-tool-pop-button"&gt;ENCR&lt;/a&gt; is not clickable at point (135, 584). Other element would receive the click: &lt;div class="col-auto"&gt;...&lt;/div&gt;
+  (Session info: headless chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Test-Net.local', ip: 'fe80:0:0:0:1c9b:9c0f:53b1:fc81%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/2t/h03m4hg13gb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60249}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 4d7983bbad8fd90947718bfcdf88d5db
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:24)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Embarq.run(Embarq:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR'
+	... 21 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href="/traffic-controller?CONCEPT=...&amp;amp;KBID=57986&amp;amp;ANI=1783061598&amp;amp;CUSTZIP=52977&amp;amp;interaction_type_id=1" target="_blank" class="btn btn-primary dev-tool-pop-button"&gt;ENCR&lt;/a&gt; is not clickable at point (135, 584). Other element would receive the click: &lt;div class="col-auto"&gt;...&lt;/div&gt;
+  (Session info: headless chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Test-Net.local', ip: 'fe80:0:0:0:1c9b:9c0f:53b1:fc81%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/2t/h03m4hg13gb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60249}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 4d7983bbad8fd90947718bfcdf88d5db
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-05-21 10:08:40 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:08:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-21 10:08:40 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-21 10:08:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:08:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:08:43 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:08:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:08:44 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:08:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:08:47 - [TEST_STEP][FAILED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Embarq.run(Embarq:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href="/traffic-controller?CONCEPT=...&amp;amp;KBID=57986&amp;amp;ANI=1783061598&amp;amp;CUSTZIP=52977&amp;amp;interaction_type_id=1" target="_blank" class="btn btn-primary dev-tool-pop-button"&gt;ENCR&lt;/a&gt; is not clickable at point (135, 584). Other element would receive the click: &lt;div class="col-auto"&gt;...&lt;/div&gt;
+  (Session info: headless chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Test-Net.local', ip: 'fe80:0:0:0:1c9b:9c0f:53b1:fc81%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/2t/h03m4hg13gb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60249}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 4d7983bbad8fd90947718bfcdf88d5db
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:24)
+	... 13 more
+)
+
+2019-05-21 10:08:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Embarq.run(Embarq:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href="/traffic-controller?CONCEPT=...&amp;amp;KBID=57986&amp;amp;ANI=1783061598&amp;amp;CUSTZIP=52977&amp;amp;interaction_type_id=1" target="_blank" class="btn btn-primary dev-tool-pop-button"&gt;ENCR&lt;/a&gt; is not clickable at point (135, 584). Other element would receive the click: &lt;div class="col-auto"&gt;...&lt;/div&gt;
+  (Session info: headless chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Test-Net.local', ip: 'fe80:0:0:0:1c9b:9c0f:53b1:fc81%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/2t/h03m4hg13gb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60249}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 4d7983bbad8fd90947718bfcdf88d5db
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:24)
+	... 13 more
+)
+[[ATTACHMENT|/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558454927919.png]]
+
+2019-05-21 10:08:48 - [TEST_STEP][FAILED] - switchToWindowIndex(1): Cannot find window with index: '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1861)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$2.call(Unknown Source)
+	at Embarq.run(Embarq:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+)
+
+2019-05-21 10:09:19 - [MESSAGE][FAILED] - Cannot find window with index: '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1861)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$2.call(Unknown Source)
+	at Embarq.run(Embarq:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+)
+[[ATTACHMENT|/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558454959395.png]]
+
+2019-05-21 10:09:19 - [TEST_STEP][FAILED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Unable to set text 'Jon' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Jon' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Embarq.run(Embarq:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name' located by 'By.xpath: //input[@id='customer_last_name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:28)
+	... 13 more
+)
+
+2019-05-21 10:09:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='customer_last_name']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-21 10:09:50 - [MESSAGE][FAILED] - Unable to set text 'Jon' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Jon' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Embarq.run(Embarq:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name' located by 'By.xpath: //input[@id='customer_last_name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558454990427.png]]
+
+2019-05-21 10:09:50 - [TEST_STEP][FAILED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Unable to set text '592 E. Channel Dr.' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '592 E. Channel Dr.' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Embarq.run(Embarq:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1' located by 'By.xpath: //input[@id='customer_addresses_primary_line1']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:30)
+	... 13 more
+)
+
+2019-05-21 10:10:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='customer_addresses_primary_line1']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-21 10:10:21 - [MESSAGE][FAILED] - Unable to set text '592 E. Channel Dr.' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '592 E. Channel Dr.' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Embarq.run(Embarq:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1' located by 'By.xpath: //input[@id='customer_addresses_primary_line1']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558455021451.png]]
+
+2019-05-21 10:10:21 - [TEST_STEP][FAILED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Unable to set text 'Jake' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Jake' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Embarq.run(Embarq:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name' located by 'By.xpath: //input[@id='customer_first_name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:32)
+	... 13 more
+)
+
+2019-05-21 10:10:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='customer_first_name']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-21 10:10:52 - [MESSAGE][FAILED] - Unable to set text 'Jake' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Jake' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Embarq.run(Embarq:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name' located by 'By.xpath: //input[@id='customer_first_name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558455052466.png]]
+
+2019-05-21 10:10:52 - [TEST_STEP][FAILED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Unable to set text 'Harmon' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Harmon' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Embarq.run(Embarq:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name' located by 'By.xpath: //input[@id='customer_last_name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:34)
+	... 13 more
+)
+
+2019-05-21 10:11:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='customer_last_name']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-21 10:11:24 - [MESSAGE][FAILED] - Unable to set text 'Harmon' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Harmon' of object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Embarq.run(Embarq:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name' located by 'By.xpath: //input[@id='customer_last_name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190521_100755/1558455084306.png]]</system-out>
+            <system-err>2019-05-21 10:08:40 - [TEST_CASE][FAILED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Embarq.run(Embarq:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href="/traffic-controller?CONCEPT=...&amp;amp;KBID=57986&amp;amp;ANI=1783061598&amp;amp;CUSTZIP=52977&amp;amp;interaction_type_id=1" target="_blank" class="btn btn-primary dev-tool-pop-button"&gt;ENCR&lt;/a&gt; is not clickable at point (135, 584). Other element would receive the click: &lt;div class="col-auto"&gt;...&lt;/div&gt;
+  (Session info: headless chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Test-Net.local', ip: 'fe80:0:0:0:1c9b:9c0f:53b1:fc81%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/2t/h03m4hg13gb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60249}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 4d7983bbad8fd90947718bfcdf88d5db
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1558021466723.run(Script1558021466723.groovy:24)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Embarq.run(Embarq:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558454875339.run(TempTestSuite1558454875339.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR'
+	... 21 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href="/traffic-controller?CONCEPT=...&amp;amp;KBID=57986&amp;amp;ANI=1783061598&amp;amp;CUSTZIP=52977&amp;amp;interaction_type_id=1" target="_blank" class="btn btn-primary dev-tool-pop-button"&gt;ENCR&lt;/a&gt; is not clickable at point (135, 584). Other element would receive the click: &lt;div class="col-auto"&gt;...&lt;/div&gt;
+  (Session info: headless chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Test-Net.local', ip: 'fe80:0:0:0:1c9b:9c0f:53b1:fc81%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/2t/h03m4hg13gb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60249}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 4d7983bbad8fd90947718bfcdf88d5db
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more</system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-21 10:11:24 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-21 10:11:24 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:11:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-21 10:11:24 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-21 10:11:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-21 10:11:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:11:27 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-21 10:11:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:11:27 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-21 10:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-21 10:11:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-21 10:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-21 10:11:31 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-21 10:11:31 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-21 10:11:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:11:33 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:11:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-21 10:11:33 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-21 10:11:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Bob' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-21 10:11:33 - [MESSAGE][PASSED] - Text 'Bob' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-21 10:11:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Hill' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-21 10:11:33 - [MESSAGE][PASSED] - Text 'Hill' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-05-21 10:07:57 - [TEST_SUITE][INCOMPLETE] - Randonames: null</system-out>
+        <system-err>2019-05-21 10:07:57 - [TEST_SUITE][INCOMPLETE] - Randonames: null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-04-25 10:04:36,2019-04-25 10:04:36,0.542s,PASSED
+,,,,,,
+Test Cases/UAT Fuse Order,,Fuse Order UAT,2019-04-25 10:04:36,2019-04-25 10:04:36,0.221s,PASSED
+return null,,,2019-04-25 10:04:36,2019-04-25 10:04:36,0.001s,PASSED
+,,,,,,
+Test Cases/UAT Fuse Order,,Fuse Order UAT,2019-04-25 10:04:36,2019-04-25 10:04:36,0.010s,PASSED
+return null,,,2019-04-25 10:04:36,2019-04-25 10:04:36,0.001s,PASSED

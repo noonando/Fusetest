@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Fuse,Chrome 74.0.3729.157,,,2019-05-16 14:55:31,2019-05-16 14:56:04,32.364s,INCOMPLETE
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.157,,,2019-05-16 14:55:31,2019-05-16 14:56:04,32.201s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-16 14:55:32,2019-05-16 14:55:35,3.031s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-16 14:55:35,2019-05-16 14:55:35,0.206s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.157,,,2019-05-16 14:55:35,2019-05-16 14:55:35,0.092s,PASSED
+clickImage(findTestObject(null)),Chrome 74.0.3729.157,,,2019-05-16 14:55:35,2019-05-16 14:55:35,0.342s,FAILED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.157,,,2019-05-16 14:55:35,2019-05-16 14:56:04,28.215s,PASSED
+"waitForElementClickable(findTestObject(""Page_ Fuse (Scott Patterson)/a_EMBARQ""), 0)",Chrome 74.0.3729.157,,,2019-05-16 14:56:04,2019-05-16 14:56:04,0.050s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.157,,,2019-05-16 14:56:04,2019-05-16 14:56:04,0.071s,PASSED

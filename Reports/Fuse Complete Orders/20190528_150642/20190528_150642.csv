@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Fuse Complete Orders,Chrome 74.0.3729.169,,,2019-05-28 15:06:45,2019-05-28 15:11:29,4m - 43.690s,INCOMPLETE
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.169,,,2019-05-28 15:06:45,2019-05-28 15:06:58,12.628s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:06:46,2019-05-28 15:06:49,3.615s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:06:49,2019-05-28 15:06:50,0.264s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.169,,,2019-05-28 15:06:50,2019-05-28 15:06:50,0.122s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.169,,,2019-05-28 15:06:50,2019-05-28 15:06:53,3.797s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.169,,,2019-05-28 15:06:53,2019-05-28 15:06:54,0.592s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.169,,,2019-05-28 15:06:54,2019-05-28 15:06:54,0.018s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), Address1)",Chrome 74.0.3729.169,,,2019-05-28 15:06:54,2019-05-28 15:06:57,2.614s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.169,,,2019-05-28 15:06:57,2019-05-28 15:06:57,0.270s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), lastname)",Chrome 74.0.3729.169,,,2019-05-28 15:06:57,2019-05-28 15:06:57,0.322s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code""), canadianzip)",Chrome 74.0.3729.169,,,2019-05-28 15:06:57,2019-05-28 15:06:57,0.120s,PASSED
+"selectOptionByIndex(findTestObject(""Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon""), 2)",Chrome 74.0.3729.169,,,2019-05-28 15:06:57,2019-05-28 15:06:58,0.152s,PASSED
+OPTIONAL,Chrome 74.0.3729.169,,,2019-05-28 15:06:58,2019-05-28 15:06:58,0.003s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/button_Next""))",Chrome 74.0.3729.169,,,2019-05-28 15:06:58,2019-05-28 15:06:58,0.434s,FAILED
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.169,,,2019-05-28 15:06:58,2019-05-28 15:07:10,11.744s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:06:58,2019-05-28 15:07:01,2.685s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:01,2019-05-28 15:07:01,0.231s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:01,2019-05-28 15:07:01,0.154s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:01,2019-05-28 15:07:05,4.008s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:05,2019-05-28 15:07:06,0.627s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.169,,,2019-05-28 15:07:06,2019-05-28 15:07:06,0.014s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), Address1)",Chrome 74.0.3729.169,,,2019-05-28 15:07:06,2019-05-28 15:07:08,2.686s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.169,,,2019-05-28 15:07:08,2019-05-28 15:07:09,0.341s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), lastname)",Chrome 74.0.3729.169,,,2019-05-28 15:07:09,2019-05-28 15:07:09,0.305s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code""), canadianzip)",Chrome 74.0.3729.169,,,2019-05-28 15:07:09,2019-05-28 15:07:09,0.125s,PASSED
+"selectOptionByIndex(findTestObject(""Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon""), 2)",Chrome 74.0.3729.169,,,2019-05-28 15:07:09,2019-05-28 15:07:09,0.177s,PASSED
+OPTIONAL,Chrome 74.0.3729.169,,,2019-05-28 15:07:09,2019-05-28 15:07:09,0.000s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/button_Next""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:09,2019-05-28 15:07:10,0.366s,FAILED
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.169,,,2019-05-28 15:07:10,2019-05-28 15:07:21,10.963s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:10,2019-05-28 15:07:12,2.424s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:12,2019-05-28 15:07:12,0.205s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:12,2019-05-28 15:07:13,0.116s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:13,2019-05-28 15:07:16,3.898s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:16,2019-05-28 15:07:17,0.620s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.169,,,2019-05-28 15:07:17,2019-05-28 15:07:17,0.015s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), Address1)",Chrome 74.0.3729.169,,,2019-05-28 15:07:17,2019-05-28 15:07:20,2.523s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.169,,,2019-05-28 15:07:20,2019-05-28 15:07:20,0.193s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), lastname)",Chrome 74.0.3729.169,,,2019-05-28 15:07:20,2019-05-28 15:07:20,0.288s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code""), canadianzip)",Chrome 74.0.3729.169,,,2019-05-28 15:07:20,2019-05-28 15:07:20,0.138s,PASSED
+"selectOptionByIndex(findTestObject(""Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon""), 2)",Chrome 74.0.3729.169,,,2019-05-28 15:07:20,2019-05-28 15:07:20,0.178s,PASSED
+OPTIONAL,Chrome 74.0.3729.169,,,2019-05-28 15:07:20,2019-05-28 15:07:20,0.000s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/button_Next""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:20,2019-05-28 15:07:21,0.346s,FAILED
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.169,,,2019-05-28 15:07:21,2019-05-28 15:07:33,12.177s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:21,2019-05-28 15:07:23,2.345s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:23,2019-05-28 15:07:23,0.229s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:23,2019-05-28 15:07:23,0.112s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:23,2019-05-28 15:07:28,4.443s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:28,2019-05-28 15:07:28,0.603s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.169,,,2019-05-28 15:07:28,2019-05-28 15:07:28,0.014s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), Address1)",Chrome 74.0.3729.169,,,2019-05-28 15:07:28,2019-05-28 15:07:31,3.007s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.169,,,2019-05-28 15:07:31,2019-05-28 15:07:32,0.249s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), lastname)",Chrome 74.0.3729.169,,,2019-05-28 15:07:32,2019-05-28 15:07:32,0.414s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code""), canadianzip)",Chrome 74.0.3729.169,,,2019-05-28 15:07:32,2019-05-28 15:07:32,0.161s,PASSED
+"selectOptionByIndex(findTestObject(""Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon""), 2)",Chrome 74.0.3729.169,,,2019-05-28 15:07:32,2019-05-28 15:07:33,0.185s,PASSED
+OPTIONAL,Chrome 74.0.3729.169,,,2019-05-28 15:07:33,2019-05-28 15:07:33,0.000s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/button_Next""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:33,2019-05-28 15:07:33,0.393s,FAILED
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.169,,,2019-05-28 15:07:33,2019-05-28 15:11:18,3m - 45.060s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:33,2019-05-28 15:07:35,2.276s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:35,2019-05-28 15:07:35,0.226s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.169,,,2019-05-28 15:07:35,2019-05-28 15:07:36,0.113s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:36,2019-05-28 15:07:39,3.527s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.169,,,2019-05-28 15:07:39,2019-05-28 15:07:40,0.607s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.169,,,2019-05-28 15:07:40,2019-05-28 15:08:11,31.394s,FAILED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), Address1)",Chrome 74.0.3729.169,,,2019-05-28 15:08:11,2019-05-28 15:08:42,31.021s,FAILED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.169,,,2019-05-28 15:08:42,2019-05-28 15:09:13,31.032s,FAILED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), lastname)",Chrome 74.0.3729.169,,,2019-05-28 15:09:13,2019-05-28 15:09:44,31.030s,FAILED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code""), canadianzip)",Chrome 74.0.3729.169,,,2019-05-28 15:09:44,2019-05-28 15:10:16,31.746s,FAILED
+"selectOptionByIndex(findTestObject(""Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon""), 2)",Chrome 74.0.3729.169,,,2019-05-28 15:10:16,2019-05-28 15:10:47,31.049s,FAILED
+OPTIONAL,Chrome 74.0.3729.169,,,2019-05-28 15:10:47,2019-05-28 15:10:47,0.000s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/button_Next""))",Chrome 74.0.3729.169,,,2019-05-28 15:10:47,2019-05-28 15:11:18,31.023s,FAILED
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.169,,,2019-05-28 15:11:18,2019-05-28 15:11:29,10.885s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:11:18,2019-05-28 15:11:20,2.166s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-28 15:11:20,2019-05-28 15:11:20,0.180s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.169,,,2019-05-28 15:11:20,2019-05-28 15:11:20,0.093s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.169,,,2019-05-28 15:11:20,2019-05-28 15:11:24,4.081s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.169,,,2019-05-28 15:11:24,2019-05-28 15:11:25,0.593s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.169,,,2019-05-28 15:11:25,2019-05-28 15:11:25,0.011s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), Address1)",Chrome 74.0.3729.169,,,2019-05-28 15:11:25,2019-05-28 15:11:28,2.770s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.169,,,2019-05-28 15:11:28,2019-05-28 15:11:28,0.202s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), lastname)",Chrome 74.0.3729.169,,,2019-05-28 15:11:28,2019-05-28 15:11:28,0.216s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code""), canadianzip)",Chrome 74.0.3729.169,,,2019-05-28 15:11:28,2019-05-28 15:11:28,0.113s,PASSED
+"selectOptionByIndex(findTestObject(""Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon""), 2)",Chrome 74.0.3729.169,,,2019-05-28 15:11:28,2019-05-28 15:11:29,0.121s,PASSED
+OPTIONAL,Chrome 74.0.3729.169,,,2019-05-28 15:11:29,2019-05-28 15:11:29,0.000s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/button_Next""))",Chrome 74.0.3729.169,,,2019-05-28 15:11:29,2019-05-28 15:11:29,0.323s,FAILED

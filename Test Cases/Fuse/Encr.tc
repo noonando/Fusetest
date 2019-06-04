@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Encr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47a2e3f8-6662-496c-b0fa-540774e8b70b</testCaseGuid>
+   <variable>
+      <defaultValue>'Address1'</defaultValue>
+      <description></description>
+      <id>8a147c7f-8faa-4a52-a270-83b770e89193</id>
+      <masked>false</masked>
+      <name>Address1</name>
+   </variable>
+   <variable>
+      <defaultValue>'firstname'</defaultValue>
+      <description></description>
+      <id>3d138b2d-2f6e-4864-bcbe-a1dbfd4e9b04</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'lastname'</defaultValue>
+      <description></description>
+      <id>e45ebb24-a1d0-4c07-8ed8-669f7a86c9ab</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'a1a1a1'</defaultValue>
+      <description></description>
+      <id>7fd626b5-f904-4bbf-9621-50f7b2ee0c16</id>
+      <masked>false</masked>
+      <name>Canandazip</name>
+   </variable>
+</TestCaseEntity>

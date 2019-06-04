@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Randonames" time="65" tests="6" failures="0" errors="0">
+    <testsuite name="Randonames" tests="6" failures="0" errors="0" time="65" timestamp="2019-05-20 16:38:01" hostname="Clearlink - 172.16.102.220" id="Test Suites/Randonames">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190520_163758"/>
+            <property name="logFiles" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Randonames/20190520_163758/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Clearlink - 172.16.102.220"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Chrome 74.0.3729.157"/>
+            <property name="hostAddress" value="172.16.102.220"/>
+            <property name="sessionId" value="956f5a92358ed42e648b0a3d28ddb5b4"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-20 16:38:01 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-20 16:38:01 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:01 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-20 16:38:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-20 16:38:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:04 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:04 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:38:09 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-20 16:38:09 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-20 16:38:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:12 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:38:12 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Scott' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:38:12 - [MESSAGE][PASSED] - Text 'Scott' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Patterson' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:12 - [MESSAGE][PASSED] - Text 'Patterson' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-20 16:38:12 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-20 16:38:12 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-20 16:38:12 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-20 16:38:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:17 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:17 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:38:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:38:21 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-20 16:38:21 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-20 16:38:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:23 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:38:23 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:38:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Steve' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:38:23 - [MESSAGE][PASSED] - Text 'Steve' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:38:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Dalzan' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:24 - [MESSAGE][PASSED] - Text 'Dalzan' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-20 16:38:24 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-20 16:38:24 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-20 16:38:24 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-20 16:38:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:26 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:27 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:38:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:38:31 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-20 16:38:31 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-20 16:38:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:33 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:38:33 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Mike' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:38:33 - [MESSAGE][PASSED] - Text 'Mike' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Smith' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:34 - [MESSAGE][PASSED] - Text 'Smith' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-20 16:38:34 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-20 16:38:34 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-20 16:38:34 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-20 16:38:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:37 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:37 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:38:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:38:41 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-20 16:38:41 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-20 16:38:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:43 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:38:43 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Tim' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:38:44 - [MESSAGE][PASSED] - Text 'Tim' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:38:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Freestone' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:44 - [MESSAGE][PASSED] - Text 'Freestone' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-20 16:38:44 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-20 16:38:44 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-20 16:38:44 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-20 16:38:48 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:48 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:48 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:38:52 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-20 16:38:52 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-20 16:38:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:54 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:38:54 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:38:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Jake' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:38:55 - [MESSAGE][PASSED] - Text 'Jake' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:38:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Harmon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:38:55 - [MESSAGE][PASSED] - Text 'Harmon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-20 16:38:55 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-20 16:38:55 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-20 16:38:55 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-20 16:38:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-20 16:38:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:58 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-20 16:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:58 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-20 16:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-20 16:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-20 16:39:03 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-20 16:39:03 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-20 16:39:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), "Jon"): Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:39:05 - [MESSAGE][PASSED] - Text 'Jon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), "592 E. Channel Dr."): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:39:05 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-20 16:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Bob' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:39:06 - [MESSAGE][PASSED] - Text 'Bob' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-20 16:39:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Hill' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-20 16:39:06 - [MESSAGE][PASSED] - Text 'Hill' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-05-20 16:38:01 - [TEST_SUITE][INCOMPLETE] - Randonames: null</system-out>
+        <system-err>2019-05-20 16:38:01 - [TEST_SUITE][INCOMPLETE] - Randonames: null</system-err>
+    </testsuite>
+</testsuites>

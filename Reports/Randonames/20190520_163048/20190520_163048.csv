@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Randonames,Chrome 74.0.3729.157,,,2019-05-20 16:30:50,2019-05-20 16:31:53,1m - 3.226s,INCOMPLETE
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.157,,,2019-05-20 16:30:50,2019-05-20 16:31:01,10.683s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:30:51,2019-05-20 16:30:54,3.031s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:30:54,2019-05-20 16:30:54,0.264s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.157,,,2019-05-20 16:30:54,2019-05-20 16:30:54,0.121s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.157,,,2019-05-20 16:30:54,2019-05-20 16:30:58,4.022s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.157,,,2019-05-20 16:30:58,2019-05-20 16:30:58,0.086s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.157,,,2019-05-20 16:30:58,2019-05-20 16:30:58,0.022s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), ""Jon"")",Chrome 74.0.3729.157,,,2019-05-20 16:30:58,2019-05-20 16:31:00,2.159s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), ""592 E. Channel Dr."")",Chrome 74.0.3729.157,,,2019-05-20 16:31:00,2019-05-20 16:31:00,0.137s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:00,2019-05-20 16:31:01,0.239s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_last_name""), lastname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:01,2019-05-20 16:31:01,0.315s,FAILED
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.157,,,2019-05-20 16:31:01,2019-05-20 16:31:12,11.307s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:01,2019-05-20 16:31:04,2.584s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:04,2019-05-20 16:31:04,0.195s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:04,2019-05-20 16:31:04,0.100s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.157,,,2019-05-20 16:31:04,2019-05-20 16:31:08,4.495s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.157,,,2019-05-20 16:31:08,2019-05-20 16:31:09,0.593s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.157,,,2019-05-20 16:31:09,2019-05-20 16:31:09,0.017s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), ""Jon"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:09,2019-05-20 16:31:12,2.585s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), ""592 E. Channel Dr."")",Chrome 74.0.3729.157,,,2019-05-20 16:31:12,2019-05-20 16:31:12,0.152s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:12,2019-05-20 16:31:12,0.257s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_last_name""), lastname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:12,2019-05-20 16:31:12,0.303s,FAILED
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.157,,,2019-05-20 16:31:12,2019-05-20 16:31:22,9.755s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:12,2019-05-20 16:31:15,2.316s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:15,2019-05-20 16:31:15,0.216s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:15,2019-05-20 16:31:15,0.119s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.157,,,2019-05-20 16:31:15,2019-05-20 16:31:18,3.470s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.157,,,2019-05-20 16:31:18,2019-05-20 16:31:19,0.601s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.157,,,2019-05-20 16:31:19,2019-05-20 16:31:19,0.014s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), ""Jon"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:19,2019-05-20 16:31:21,2.331s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), ""592 E. Channel Dr."")",Chrome 74.0.3729.157,,,2019-05-20 16:31:21,2019-05-20 16:31:22,0.129s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:22,2019-05-20 16:31:22,0.233s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_last_name""), lastname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:22,2019-05-20 16:31:22,0.303s,FAILED
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.157,,,2019-05-20 16:31:22,2019-05-20 16:31:34,11.576s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:22,2019-05-20 16:31:24,2.329s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:24,2019-05-20 16:31:25,0.190s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:25,2019-05-20 16:31:25,0.122s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.157,,,2019-05-20 16:31:25,2019-05-20 16:31:31,5.889s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.157,,,2019-05-20 16:31:31,2019-05-20 16:31:31,0.076s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.157,,,2019-05-20 16:31:31,2019-05-20 16:31:31,0.011s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), ""Jon"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:31,2019-05-20 16:31:33,2.342s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), ""592 E. Channel Dr."")",Chrome 74.0.3729.157,,,2019-05-20 16:31:33,2019-05-20 16:31:33,0.131s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:33,2019-05-20 16:31:33,0.190s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_last_name""), lastname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:33,2019-05-20 16:31:34,0.276s,FAILED
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.157,,,2019-05-20 16:31:34,2019-05-20 16:31:43,9.308s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:34,2019-05-20 16:31:36,2.210s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:36,2019-05-20 16:31:36,0.192s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:36,2019-05-20 16:31:36,0.117s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.157,,,2019-05-20 16:31:36,2019-05-20 16:31:40,3.327s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.157,,,2019-05-20 16:31:40,2019-05-20 16:31:40,0.584s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.157,,,2019-05-20 16:31:40,2019-05-20 16:31:40,0.012s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), ""Jon"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:40,2019-05-20 16:31:42,2.159s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), ""592 E. Channel Dr."")",Chrome 74.0.3729.157,,,2019-05-20 16:31:42,2019-05-20 16:31:42,0.141s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:42,2019-05-20 16:31:43,0.275s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_last_name""), lastname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:43,2019-05-20 16:31:43,0.266s,FAILED
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.157,,,2019-05-20 16:31:43,2019-05-20 16:31:53,10.384s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:43,2019-05-20 16:31:45,2.169s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:45,2019-05-20 16:31:45,0.199s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:45,2019-05-20 16:31:45,0.118s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.157,,,2019-05-20 16:31:45,2019-05-20 16:31:50,4.971s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.157,,,2019-05-20 16:31:50,2019-05-20 16:31:51,0.076s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.157,,,2019-05-20 16:31:51,2019-05-20 16:31:51,0.013s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), ""Jon"")",Chrome 74.0.3729.157,,,2019-05-20 16:31:51,2019-05-20 16:31:53,2.254s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), ""592 E. Channel Dr."")",Chrome 74.0.3729.157,,,2019-05-20 16:31:53,2019-05-20 16:31:53,0.125s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:53,2019-05-20 16:31:53,0.174s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_last_name""), lastname)",Chrome 74.0.3729.157,,,2019-05-20 16:31:53,2019-05-20 16:31:53,0.265s,FAILED

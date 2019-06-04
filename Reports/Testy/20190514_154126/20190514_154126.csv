@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testy,,,2019-05-14 15:41:28,2019-05-14 15:41:29,0.787s,FAILED
+,,,,,,
+Test Cases/Ignite Test,,,2019-05-14 15:41:28,2019-05-14 15:41:29,0.525s,FAILED
+"openBrowser(""dev-aim.clearlink.com"")",,,2019-05-14 15:41:28,2019-05-14 15:41:29,0.255s,FAILED

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="0" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="0" timestamp="2019-04-25 10:04:36" hostname="Clearlink - 10.1.76.52" id="Test Suites/Imported from Selenium IDE Scripts/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Imported from Selenium IDE Scripts/New Test Suite/20190425_100433"/>
+         <property name="logFiles" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Imported from Selenium IDE Scripts/New Test Suite/20190425_100433/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Clearlink - 10.1.76.52"/>
+         <property name="hostAddress" value="10.1.76.52"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+      </properties>
+      <testcase name="Test Cases/UAT Fuse Order" classname="Test Cases/UAT Fuse Order" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:04:36 - [TEST_CASE][PASSED] - Test Cases/UAT Fuse Order: Test Cases/UAT Fuse Order
+
+2019-04-25 10:04:36 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UAT Fuse Order" classname="Test Cases/UAT Fuse Order" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:04:36 - [TEST_CASE][PASSED] - Test Cases/UAT Fuse Order: Test Cases/UAT Fuse Order
+
+2019-04-25 10:04:36 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-25 10:04:36 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/UAT Fuse Order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

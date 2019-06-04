@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testy" time="5" tests="1" failures="0" errors="0">
+   <testsuite name="Testy" tests="1" failures="0" errors="0" time="5" timestamp="2019-05-14 15:49:23" hostname="Clearlink - 10.1.77.209" id="Test Suites/Testy">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Testy/20190514_154920"/>
+         <property name="logFiles" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Testy/20190514_154920/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Clearlink - 10.1.77.209"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 74.0.3729.157"/>
+         <property name="hostAddress" value="10.1.77.209"/>
+         <property name="sessionId" value="ea287987b5b638818c34bc134d35321d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Ignite Test" classname="Test Cases/Ignite Test" status="PASSED">
+         <system-out><![CDATA[2019-05-14 15:49:23 - [TEST_CASE][PASSED] - Test Cases/Ignite Test: Test Cases/Ignite Test
+
+2019-05-14 15:49:23 - [TEST_STEP][PASSED] - openBrowser("dev-aim.clearlink.com"): Browser is opened with url: 'dev-aim.clearlink.com'
+
+2019-05-14 15:49:24 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-14 15:49:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-14 15:49:28 - [MESSAGE][PASSED] - Browser is opened with url: 'dev-aim.clearlink.com']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-14 15:49:23 - [TEST_SUITE][PASSED] - Testy: Test Cases/Ignite Test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

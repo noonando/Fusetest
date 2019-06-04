@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testy,Chrome 74.0.3729.157,,2019-05-15 13:14:41,2019-05-15 13:14:55,14.559s,FAILED
+,,,,,,
+Test Cases/Ignite Test,Chrome 74.0.3729.157,,2019-05-15 13:14:41,2019-05-15 13:14:47,6.264s,PASSED
+"openBrowser(""dev-aim.clearlink.com"")",Chrome 74.0.3729.157,,2019-05-15 13:14:41,2019-05-15 13:14:47,6.031s,PASSED
+,,,,,,
+Test Cases/New Test Case,Chrome 74.0.3729.157,,2019-05-15 13:14:47,2019-05-15 13:14:55,7.972s,FAILED
+"openBrowser(""www.ksl.com"")",Chrome 74.0.3729.157,,2019-05-15 13:14:47,2019-05-15 13:14:54,6.836s,PASSED
+clickImage(findTestObject(null)),Chrome 74.0.3729.157,,2019-05-15 13:14:54,2019-05-15 13:14:55,1.020s,FAILED

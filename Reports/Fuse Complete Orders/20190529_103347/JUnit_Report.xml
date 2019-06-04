@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Fuse Complete Orders" time="110" tests="6" failures="0" errors="0">
+    <testsuite name="Fuse Complete Orders" tests="6" failures="0" errors="0" time="110" timestamp="2019-05-29 10:33:50" hostname="Clearlink - 10.1.76.234" id="Test Suites/Fuse Complete Orders">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Fuse Complete Orders/20190529_103347"/>
+            <property name="logFiles" value="/Users/Clearlink/Katalon Studio/Aim/Reports/Fuse Complete Orders/20190529_103347/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Clearlink - 10.1.76.234"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Chrome 74.0.3729.169"/>
+            <property name="hostAddress" value="10.1.76.234"/>
+            <property name="sessionId" value="ff380e4f0eae2cdc5e840fe5cc0abfa3"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-29 10:33:50 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-29 10:33:50 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:33:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 10:33:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-29 10:33:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:33:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:33:55 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:33:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:33:55 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:33:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:34:00 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-29 10:34:00 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-29 10:34:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), Address1): Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:34:03 - [MESSAGE][PASSED] - Text '592 E. Channel Dr.' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:34:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Scott' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:34:03 - [MESSAGE][PASSED] - Text 'Scott' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:34:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Patterson' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:34:04 - [MESSAGE][PASSED] - Text 'Patterson' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:34:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code"), canadianzip): Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:34:04 - [MESSAGE][PASSED] - Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:34:04 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon"), 2): All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:34:04 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:34:04 - [TEST_STEP][PASSED] - OPTIONAL: null
+
+2019-05-29 10:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/label_Yes")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:34:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city"), "Townsville"): Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:34:04 - [MESSAGE][PASSED] - Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:34:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Email _customer_email"), "test@mail.com"): Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:34:05 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:34:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-29 10:34:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 10:34:10 - [TEST_STEP][PASSED] - click(findTestObject("EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr")): Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:34:10 - [MESSAGE][PASSED] - Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:34:10 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-29 10:34:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-29 10:34:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-29 10:34:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 10:34:10 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-29 10:34:10 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-29 10:34:10 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:34:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 10:34:14 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:34:14 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:34:14 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:34:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:34:19 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-29 10:34:19 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-29 10:34:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), Address1): Text '3005 N. Foothill Dr. ' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:34:22 - [MESSAGE][PASSED] - Text '3005 N. Foothill Dr. ' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:34:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Steve' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:34:22 - [MESSAGE][PASSED] - Text 'Steve' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:34:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Dalzan' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:34:23 - [MESSAGE][PASSED] - Text 'Dalzan' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code"), canadianzip): Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:34:23 - [MESSAGE][PASSED] - Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:34:23 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon"), 2): All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:34:23 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:34:23 - [TEST_STEP][PASSED] - OPTIONAL: null
+
+2019-05-29 10:34:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/label_Yes")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city"), "Townsville"): Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:34:23 - [MESSAGE][PASSED] - Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Email _customer_email"), "test@mail.com"): Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:34:24 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:34:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-29 10:34:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 10:34:29 - [TEST_STEP][PASSED] - click(findTestObject("EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr")): Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:34:29 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-29 10:34:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-29 10:34:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-29 10:34:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 10:34:29 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-29 10:34:29 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-29 10:34:29 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:34:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 10:34:33 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:34:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:34:33 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:34:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:34:33 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:34:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:34:38 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-29 10:34:38 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-29 10:34:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), Address1): Text '532 westeros' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:34:40 - [MESSAGE][PASSED] - Text '532 westeros' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:34:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Mike' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:34:40 - [MESSAGE][PASSED] - Text 'Mike' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:34:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Smith' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:34:41 - [MESSAGE][PASSED] - Text 'Smith' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:34:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code"), canadianzip): Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:34:41 - [MESSAGE][PASSED] - Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:34:41 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon"), 2): All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:34:41 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:34:41 - [TEST_STEP][PASSED] - OPTIONAL: null
+
+2019-05-29 10:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/label_Yes")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:34:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city"), "Townsville"): Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:34:41 - [MESSAGE][PASSED] - Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:34:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Email _customer_email"), "test@mail.com"): Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:34:42 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:34:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-29 10:34:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 10:34:47 - [TEST_STEP][PASSED] - click(findTestObject("EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr")): Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:34:47 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-29 10:34:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-29 10:34:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-29 10:34:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 10:34:47 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-29 10:34:47 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-29 10:34:47 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:34:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 10:34:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:34:51 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:34:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:34:51 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:34:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:34:55 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-29 10:34:55 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-29 10:34:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), Address1): Text '123 W. 744 E. ' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:34:58 - [MESSAGE][PASSED] - Text '123 W. 744 E. ' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:34:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Tim' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:34:59 - [MESSAGE][PASSED] - Text 'Tim' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Freestone' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:34:59 - [MESSAGE][PASSED] - Text 'Freestone' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code"), canadianzip): Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:34:59 - [MESSAGE][PASSED] - Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:34:59 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon"), 2): All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:34:59 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:34:59 - [TEST_STEP][PASSED] - OPTIONAL: null
+
+2019-05-29 10:34:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/label_Yes")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city"), "Townsville"): Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:35:00 - [MESSAGE][PASSED] - Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:35:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Email _customer_email"), "test@mail.com"): Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:35:00 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:35:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-29 10:35:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 10:35:05 - [TEST_STEP][PASSED] - click(findTestObject("EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr")): Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:35:05 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-29 10:35:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-29 10:35:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-29 10:35:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 10:35:05 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-29 10:35:05 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-29 10:35:05 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:35:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 10:35:09 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:35:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:35:09 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:35:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:35:09 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:35:13 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-29 10:35:13 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-29 10:35:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), Address1): Text 'Fake Street 1234' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:35:16 - [MESSAGE][PASSED] - Text 'Fake Street 1234' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:35:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Jake' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:35:16 - [MESSAGE][PASSED] - Text 'Jake' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:35:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Harmon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:35:16 - [MESSAGE][PASSED] - Text 'Harmon' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:35:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code"), canadianzip): Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:35:16 - [MESSAGE][PASSED] - Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:35:16 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon"), 2): All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:35:17 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:35:17 - [TEST_STEP][PASSED] - OPTIONAL: null
+
+2019-05-29 10:35:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/label_Yes")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city"), "Townsville"): Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:35:17 - [MESSAGE][PASSED] - Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Email _customer_email"), "test@mail.com"): Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:35:17 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:35:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-29 10:35:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 10:35:22 - [TEST_STEP][PASSED] - click(findTestObject("EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr")): Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:35:22 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-29 10:35:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-29 10:35:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-29 10:35:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 10:35:22 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Fuse/Embarq" classname="Test Cases/Fuse/Embarq" status="PASSED">
+            <system-out>2019-05-29 10:35:22 - [TEST_CASE][PASSED] - Test Cases/Fuse/Embarq: Test Cases/Fuse/Embarq
+
+2019-05-29 10:35:23 - [TEST_STEP][PASSED] - openBrowser("http://uatfuse.clearlink.com"): Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:35:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 10:35:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://uatfuse.clearlink.com'
+
+2019-05-29 10:35:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_usr"), "scott.patterson@clearlink.com"): Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:35:27 - [MESSAGE][PASSED] - Text 'scott.patterson@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_usr'
+
+2019-05-29 10:35:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Insurance_pwd"), "Homer4ver"): Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:35:27 - [MESSAGE][PASSED] - Text 'Homer4ver' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Insurance_pwd'
+
+2019-05-29 10:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-05-29 10:35:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/a_ENCR")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/a_ENCR' is clicked on
+
+2019-05-29 10:35:31 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-05-29 10:35:31 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-05-29 10:35:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1"), Address1): Text '3456 3444 ' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:35:34 - [MESSAGE][PASSED] - Text '3456 3444 ' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'
+
+2019-05-29 10:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name"), firstname): Text 'Bob' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:35:34 - [MESSAGE][PASSED] - Text 'Bob' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name'
+
+2019-05-29 10:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name"), lastname): Text 'Hill' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:35:34 - [MESSAGE][PASSED] - Text 'Hill' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name'
+
+2019-05-29 10:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code"), canadianzip): Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:35:34 - [MESSAGE][PASSED] - Text 'a1a1a1' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code'
+
+2019-05-29 10:35:34 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon"), 2): All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:35:34 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'
+
+2019-05-29 10:35:34 - [TEST_STEP][PASSED] - OPTIONAL: null
+
+2019-05-29 10:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/label_Yes")): Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' is clicked on
+
+2019-05-29 10:35:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city"), "Townsville"): Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:35:35 - [MESSAGE][PASSED] - Text 'Townsville' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'
+
+2019-05-29 10:35:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_ Fuse (Scott Patterson)/input_Email _customer_email"), "test@mail.com"): Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:35:35 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Page_ Fuse (Scott Patterson)/input_Email _customer_email'
+
+2019-05-29 10:35:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-29 10:35:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 10:35:40 - [TEST_STEP][PASSED] - click(findTestObject("EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr")): Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr' is clicked on
+
+2019-05-29 10:35:40 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-29 10:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-29 10:35:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-29 10:35:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 10:35:41 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-05-29 10:33:50 - [TEST_SUITE][INCOMPLETE] - Fuse Complete Orders: null</system-out>
+        <system-err>2019-05-29 10:33:50 - [TEST_SUITE][INCOMPLETE] - Fuse Complete Orders: null</system-err>
+    </testsuite>
+</testsuites>

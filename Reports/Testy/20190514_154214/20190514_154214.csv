@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testy,Chrome 74.0.3729.157,,2019-05-14 15:42:17,2019-05-14 15:42:23,5.718s,PASSED
+,,,,,,
+Test Cases/Ignite Test,Chrome 74.0.3729.157,,2019-05-14 15:42:18,2019-05-14 15:42:23,5.378s,PASSED
+"openBrowser(""dev-aim.clearlink.com"")",Chrome 74.0.3729.157,,2019-05-14 15:42:18,2019-05-14 15:42:23,5.111s,PASSED

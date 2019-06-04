@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fuse Order UAT</description>
+   <name>UAT Fuse Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a93ae46c-e975-402d-bd57-659b52d1dc78</testCaseGuid>
+</TestCaseEntity>

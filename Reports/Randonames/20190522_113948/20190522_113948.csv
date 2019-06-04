@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Randonames,Chrome 74.0.3729.169,,,2019-05-22 11:39:50,2019-05-22 11:40:03,13.510s,INCOMPLETE
+,,,,,,,
+Test Cases/Fuse/Embarq,Chrome 74.0.3729.169,,,2019-05-22 11:39:50,2019-05-22 11:40:03,13.206s,FAILED
+"openBrowser(""http://uatfuse.clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-22 11:39:50,2019-05-22 11:39:54,3.286s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_usr""), ""scott.patterson@clearlink.com"")",Chrome 74.0.3729.169,,,2019-05-22 11:39:54,2019-05-22 11:39:54,0.299s,PASSED
+"setText(findTestObject(""Page_Clearlink Authentication/input_to Insurance_pwd""), ""Homer4ver"")",Chrome 74.0.3729.169,,,2019-05-22 11:39:54,2019-05-22 11:39:54,0.123s,PASSED
+"click(findTestObject(""Page_Clearlink Authentication/button_Login""))",Chrome 74.0.3729.169,,,2019-05-22 11:39:54,2019-05-22 11:39:59,4.584s,PASSED
+"click(findTestObject(""Page_ Fuse (Scott Patterson)/a_ENCR""))",Chrome 74.0.3729.169,,,2019-05-22 11:39:59,2019-05-22 11:39:59,0.600s,PASSED
+switchToWindowIndex(1),Chrome 74.0.3729.169,,,2019-05-22 11:39:59,2019-05-22 11:39:59,0.023s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1""), Address1)",Chrome 74.0.3729.169,,,2019-05-22 11:39:59,2019-05-22 11:40:02,2.589s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_First Name _customer_first_name""), firstname)",Chrome 74.0.3729.169,,,2019-05-22 11:40:02,2019-05-22 11:40:02,0.373s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_Last Name _customer_last_name""), lastname)",Chrome 74.0.3729.169,,,2019-05-22 11:40:02,2019-05-22 11:40:03,0.296s,PASSED
+"setText(findTestObject(""Page_ Fuse (Scott Patterson)/input_ZipPostal Code _customer_addresses_primary_postal_code""), canadianzip)",Chrome 74.0.3729.169,,,2019-05-22 11:40:03,2019-05-22 11:40:03,0.130s,PASSED
+"selectOptionByIndex(findTestObject(""Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon""), 2)",Chrome 74.0.3729.169,,,2019-05-22 11:40:03,2019-05-22 11:40:03,0.154s,PASSED
+"click(findTestObject(""Encr/Page_ Fuse (Scott Patterson)/label_Yes""))",Chrome 74.0.3729.169,,,2019-05-22 11:40:03,2019-05-22 11:40:03,0.420s,FAILED
+OPTIONAL,Chrome 74.0.3729.169,,,2019-05-22 11:40:03,2019-05-22 11:40:03,0.001s,PASSED
