@@ -49,7 +49,7 @@ WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.click(findTestObject('EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr'))
 
-WebUI.delay(3)
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 
