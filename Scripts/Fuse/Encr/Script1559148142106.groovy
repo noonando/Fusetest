@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('http://uatfuse.clearlink.com')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Page_Clearlink Authentication/input_to Insurance_usr'), 'scott.patterson@clearlink.com')
 
 WebUI.setText(findTestObject('Page_Clearlink Authentication/input_to Insurance_pwd'), 'Homer4ver')
@@ -37,22 +39,17 @@ WebUI.setText(findTestObject('Page_ Fuse (Scott Patterson)/input_ZipPostal Code 
 WebUI.selectOptionByIndex(findTestObject('Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'), 
     2)
 
-// WebUI.click(findTestObject('Encr/Page_ Fuse (Scott Patterson)/label_Yes'))
-FailureHandling.OPTIONAL
-
-WebUI.click(findTestObject('Page_ Fuse (Scott Patterson)/label_Yes'))
-
 WebUI.setText(findTestObject('Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'), 'Townsville')
+
+WebUI.click(findTestObject('Page_ Fuse (Scott Patterson)/label_Yes'), FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Page_ Fuse (Scott Patterson)/input_Email _customer_email'), 'test@mail.com')
 
-WebUI.waitForElementClickable(findTestObject('EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr'), 0)
+WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.click(findTestObject('EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
-
-WebUI.waitForPageLoad(2)
 

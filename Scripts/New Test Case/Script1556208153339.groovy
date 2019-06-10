@@ -17,3 +17,5 @@ WebUI.openBrowser('www.ksl.com')
 
 WebUI.clickImage(findTestObject(null))
 
+WebUI.closeBrowser()
+

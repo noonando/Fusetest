@@ -48,5 +48,11 @@
          <value>canadianzip</value>
          <variableId>7fd626b5-f904-4bbf-9621-50f7b2ee0c16</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>2877af38-f26a-4c21-a9fa-2ea3783a3929</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value></value>
+         <variableId>a4030845-d714-4b3b-834b-b921d1d84f5e</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
